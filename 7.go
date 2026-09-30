@@ -32,9 +32,3 @@ func reverse_int(x int) int {
 	}
 	return val
 }
-
-func main() {
-	val := reverse_int(-321)
-	val2 := reverse_int(4567)
-	fmt.Println(val, val2)
-}
