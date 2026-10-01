@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func mergeAlternately(word1 string, word2 string) string {
 
 	len1 := len(word1)
@@ -36,14 +34,5 @@ func mergeAlternately(word1 string, word2 string) string {
 	}
 
 	return string(newword)
-
-}
-
-func main() {
-	word1 := "abcd"
-	word2 := "pq"
-
-	new_word := mergeAlternately(word1, word2)
-	fmt.Println(new_word)
 
 }
